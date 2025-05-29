@@ -6,13 +6,15 @@ More information and instructions will follow soon.
 
 
 #1.Download Pre-trained Models
-SUFFICIENT/monaifbs/models/checkpoint_dynUnet_DiceXent.pt https://zenodo.org/record/4282679#.X7fyttvgqL5
+sufficient/monaifbs/models/checkpoint_dynUnet_DiceXent.pt https://zenodo.org/record/4282679#.X7fyttvgqL5
 
 #2. Fetal brain segmentation
-run python SUFFICIENT/fetal_brain_seg.py
+run python sufficient/fetal_brain_seg.py
 
 #3. Pre-precessing
-run python SUFFICIENT/preprocessing.py
+
+run python sufficient/preprocessing.py
 
 #4. Training sufficient
-run python SUFFICIENT/train.py
+
+run python sufficient/train.py
